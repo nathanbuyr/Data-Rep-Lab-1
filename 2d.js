@@ -1,7 +1,6 @@
 const ages = [25, 31, 42, 77];
-const newArr = ages.map(d);
 
-function d (num) {
+let d = ages.map((num) => {
     if(num < 70){
         return num * 2;
     }
@@ -9,6 +8,6 @@ function d (num) {
         return num;
     }
 
-}
+})
 
-console.log(newArr);
+console.log(d);
