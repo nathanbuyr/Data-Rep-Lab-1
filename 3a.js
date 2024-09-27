@@ -6,6 +6,9 @@ let addTask = (task)=>{
     return console.log(names.length);
 }
 
-addTask("Jonathan");
+function listAllTasks(index){
+    return console.log(index);
+}
 
-console.log(addTask);
+addTask("Jonathan");
+names.forEach(listAllTasks);
