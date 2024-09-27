@@ -4,8 +4,8 @@ let a = function Hello() {
 
 a();
 
-let b = ()=>{
-    console.log("");
+let b = (value)=>{
+    console.log(value);
 }
 
 b("Something");
