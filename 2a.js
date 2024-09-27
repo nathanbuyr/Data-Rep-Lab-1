@@ -1,11 +1,5 @@
 let a = function Hello() {
-    console.log("Hello a");
+    console.log("Data Representation & Querying");
 }
 
 a();
-
-let b = ()=>{
-    console.log("");
-}
-
-b("Something");
