@@ -10,5 +10,14 @@ function listAllTasks(index){
     return console.log(index);
 }
 
+let index = names.indexOf(names);
+
+let deleteTask = (task)=>{
+    names.splice(index,1);
+    console.log("Deleted " + task + " to the array.");
+    return console.log(names.length);
+}
+
 addTask("Jonathan");
 names.forEach(listAllTasks);
+deleteTask("Karolis");
