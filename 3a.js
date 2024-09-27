@@ -1,4 +1,5 @@
 const names =["Nathan", "Karolis", "Jamie"];
+element = "";
 
 let addTask = (task)=>{
     console.log("AddTask function:")
@@ -7,8 +8,11 @@ let addTask = (task)=>{
     return console.log("Number of names in the array = " + names.length);
 }
 
-function listAllTasks(index){
-    return console.log(index);
+let listAllTasks = ()=>{
+    names.forEach((element)=>{
+        console.log(element);
+
+    })
 }
 
 let index = names.indexOf(names);
@@ -21,5 +25,5 @@ let deleteTask = (task)=>{
 }
 
 addTask("Jonathan");
-names.forEach(listAllTasks);
+listAllTasks();
 deleteTask("Karolis");
