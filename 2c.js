@@ -1,4 +1,5 @@
 
+//function to allow two user defined variables
 let b = (p1, p2)=>{
     return(p1 + p2);
 }
